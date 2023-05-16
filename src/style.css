@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tillana&display=swap');
+.titulo{
+    font-family: 'Alkatra', cursive;
+    text-align:center;
+    background:red;
+    border: 2px black solid;
+}
+body{
+    background: #C0C0C0;
+
+}
+*{
+    margin:0;
+    padding:2px;
+    box-sizing: border-box;
+}
+.logo{
+    width: 550px;
+    margin-top: 4vh;
+}
+.texto{
+  display:flex;
+  flex-direction: column;
+  margin:auto;
+}
+.caixa{
+  display:flex;
+      border: 2px  solid;
+}
+.titulinho{
+  font-family: 'Bitter', serif;
+  font-size:60px;
+}
+.paragrafo{
+  font-family: 'Tillana', cursive;
+  font-size:27px;
+  margin-left:100px;
+}
+.turma{
+  display:flex;
+  flex-direction:column;
+  margin:auto;
+  width:800px;  
+  margin-top: 6vh;
+}
+.Alunos{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  border: 2px solid #910000; /* Green */
+  margin-left: 85vh;
+  margin-top: 6vh;
+  }
+  .Alunos:hover {
+    background-color: #ff0000; /* Red */
+    color: white;
+  }
+  

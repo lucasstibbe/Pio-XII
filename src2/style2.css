@@ -1,0 +1,28 @@
+*{
+    padding:  0;
+    margin: 0;
+}
+table, th, td{
+    border-style: solid;
+    border-radius: 8px;
+    align-items: center;
+    margin: auto;
+    margin-top: 15vh;
+    width: 100vh;
+    font-size: x-large;
+    background-color: rgba(168, 31, 31, 0.664);
+}
+td{
+    border-width: 2px;
+    background-color: aliceblue;
+    text-align: center;
+}
+th{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+
+}
+body{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 35%, rgba(255,214,214,1) 100%);
+}
